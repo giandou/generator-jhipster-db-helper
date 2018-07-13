@@ -1,7 +1,12 @@
 const DBH_CONSTANTS = require('./dbh-constants');
-const jhipsterConstants = require('../node_modules/generator-jhipster/generators/generator-constants.js');
+/*const jhipsterConstants = require('../node_modules/generator-jhipster/generators/generator-constants.js');
 const jhipsterCore = require('jhipster-core');
 const jhipsterModuleSubgenerator = require('../node_modules/generator-jhipster/generators/modules/index.js');
+/** suggested by Guif007 */
+const jhipsterConstants = require('../../../node_modules/generator-jhipster/generators/generator-constants.js');
+const jhipsterCore = require('jhipster-core');
+const jhipsterModuleSubgenerator = require('../../../node_modules/generator-jhipster/generators/modules/index.js');
+
 const pluralize = require('pluralize');
 const fs = require('fs');
 
